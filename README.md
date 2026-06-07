@@ -1,402 +1,276 @@
-\# AI Interview Coach
+# AI Interview Coach
 
+AI Interview Coach is an AI-powered platform that helps candidates analyze their resumes, improve ATS scores, prepare for interviews, generate tailored cover letters, and receive personalized career guidance using Large Language Models (LLMs).
 
+---
 
-AI Interview Coach is an AI-powered platform that helps candidates analyze their CVs, prepare for interviews, improve ATS scores, generate tailored cover letters, and receive personalized career guidance.
+## 🚀 Key Highlights
 
+* CV Analysis & Optimization
+* ATS Score Evaluation
+* Job Description Matching
+* AI Cover Letter Generation
+* AI Resume Rewriting
+* Voice-Based Interview Simulation
+* Whisper Speech-to-Text
+* AI Answer Evaluation
+* Personalized Learning Roadmap
+* Interview Analytics Dashboard
+* PDF Report Generation
 
+---
 
-\## Features
+## 📸 Screenshots
 
+### Home Page
 
+![Home](ScreenShots/Home.jpeg)
 
-\### CV Analysis
+### CV Analysis
 
+![CV Analysis](ScreenShots/Analyze%20CV%20button.jpeg)
 
+### ATS Score Analysis
 
-\* Extracts text from PDF resumes.
+![ATS Score](ScreenShots/ATS%20Score.jpeg)
 
-\* Analyzes strengths, weaknesses, and improvement opportunities.
+### Job Description Matching
 
+![Job Match](ScreenShots/Match%20CV%20To%20Job%20description%20button.jpeg)
 
+### Interview Question Generation
 
-\### Job Description Matching
+![Questions](ScreenShots/Generate%20Question%20button.jpeg)
 
+### Cover Letter Generator
 
+![Cover Letter](ScreenShots/cover%20letter%20Button%20.jpeg)
 
-\* Compares the candidate's CV against a target job description.
+### CV Rewriter
 
-\* Provides a detailed recruiter-style assessment.
+![CV Rewrite](ScreenShots/CV%20Improving%20button.jpeg)
 
-\* Generates a match score and improvement recommendations.
+### Live Interview Session
 
+![Interview](ScreenShots/Live%20session%20interview.jpeg)
 
+### Interview Session Page
 
-\### ATS Score Analysis
+![Interview Page](ScreenShots/Live%20session%20interview%20page.jpeg)
 
+### Interview Analytics Dashboard
 
+![Dashboard](ScreenShots/Dashboard.jpeg)
 
-\* Calculates an ATS compatibility score.
+### AI Interview Insights
 
-\* Identifies matched keywords.
+![Insights](ScreenShots/AI%20Interview%20Insights.jpeg)
 
-\* Highlights missing keywords and skills.
+---
 
+## ✨ Features
 
+### CV Analysis
 
-\### AI Resume Rewriter
+* Extracts text from PDF resumes.
+* Identifies strengths and weaknesses.
+* Provides actionable improvement suggestions.
 
+### ATS Score Analysis
 
+* Calculates ATS compatibility.
+* Detects matched keywords.
+* Highlights missing skills and technologies.
 
-\* Rewrites and optimizes the CV for a specific job description.
+### Job Description Matching
 
-\* Improves ATS compatibility.
+* Compares resumes against target job descriptions.
+* Generates recruiter-style assessments.
+* Produces match scores and recommendations.
 
-\* Preserves factual information without inventing experience.
+### AI Resume Rewriter
 
+* Rewrites CV sections to better match job requirements.
+* Improves ATS compatibility.
+* Preserves factual candidate information.
 
+### Cover Letter Generator
 
-\### Cover Letter Generator
+* Creates personalized cover letters.
+* Highlights relevant skills, projects, and achievements.
 
+### AI Interview Question Generator
 
+* Generates technical questions.
+* Generates behavioral questions.
+* Tailors questions to both the CV and target role.
 
-\* Generates customized cover letters based on the candidate's CV and job requirements.
+### Interview Session
 
-\* Highlights relevant skills and projects.
+* Text-based interview mode.
+* Voice-based interview mode.
 
+### Speech-to-Text
 
+* Converts recorded answers into text using Whisper.
 
-\### AI Interview Question Generator
+### AI Answer Evaluation
 
+* Scores interview answers.
+* Provides detailed feedback and recommendations.
 
+### Interview Analytics Dashboard
 
-\* Generates technical and behavioral interview questions based on:
+* Tracks interview performance.
+* Displays score trends.
+* Shows highest, lowest, and average scores.
 
+### AI Interview Insights
 
+* Identifies strengths.
+* Highlights weaknesses.
+* Suggests skills to improve.
+* Generates final recommendations.
 
-&#x20; \* Candidate CV
+### Learning Roadmap
 
-&#x20; \* Target Job Description
+* Creates a personalized learning plan.
+* Recommends next learning steps.
 
+### Final Interview Report
 
+* Generates a complete interview report.
+* Supports PDF export.
 
-\### Interview Session
+---
 
+## 🛠️ Tech Stack
 
+### Frontend
 
-\* Interactive interview experience.
+* Streamlit
 
-\* Supports both:
+### AI & Machine Learning
 
+* Ollama
+* Qwen 3
+* Whisper
 
+### Data Processing
 
-&#x20; \* Text Answers
+* Pandas
+* NumPy
+* PDFPlumber
 
-&#x20; \* Voice Answers
+### Visualization
 
+* Matplotlib
 
+### Reporting
 
-\### Voice-to-Text Transcription
+* ReportLab
 
+---
 
-
-\* Converts recorded answers into text using Whisper.
-
-
-
-\### AI Answer Evaluation
-
-
-
-\* Evaluates interview answers.
-
-\* Provides feedback and scoring.
-
-
-
-\### Interview Analytics Dashboard
-
-
-
-\* Visualizes interview performance.
-
-\* Displays:
-
-
-
-&#x20; \* Performance trend
-
-&#x20; \* Highest score
-
-&#x20; \* Lowest score
-
-&#x20; \* Average score
-
-
-
-\### AI Interview Insights
-
-
-
-\* Identifies:
-
-
-
-&#x20; \* Strengths
-
-&#x20; \* Weaknesses
-
-&#x20; \* Skills to improve
-
-&#x20; \* Final recommendations
-
-
-
-\### Learning Roadmap
-
-
-
-\* Generates a personalized learning plan based on interview performance.
-
-
-
-\### Final Interview Report
-
-
-
-\* Creates a complete interview assessment report.
-
-\* Exportable as PDF.
-
-
-
-\---
-
-
-
-\## Tech Stack
-
-
-
-\### Frontend
-
-
-
-\* Streamlit
-
-
-
-\### AI \& Machine Learning
-
-
-
-\* Ollama
-
-\* Qwen 3
-
-\* Whisper
-
-
-
-\### Data Processing
-
-
-
-\* Pandas
-
-\* NumPy
-
-\* PDFPlumber
-
-
-
-\### Visualization
-
-
-
-\* Matplotlib
-
-
-
-\### Reporting
-
-
-
-\* ReportLab
-
-
-
-\---
-
-
-
-\## Project Structure
-
-
+## 📂 Project Structure
 
 ```text
-
 AI-Interview-Coach/
-
 │
-
 ├── pages/
-
-│   └── 1\_Interview\_Session.py
-
+│   └── 1_Interview_Session.py
 │
-
 ├── utils/
-
-│   ├── ats\_score.py
-
-│   ├── cover\_letter.py
-
-│   ├── cv\_analyzer.py
-
-│   ├── cv\_rewriter.py
-
+│   ├── ats_score.py
+│   ├── cover_letter.py
+│   ├── cv_analyzer.py
+│   ├── cv_rewriter.py
 │   ├── evaluator.py
-
-│   ├── interview\_analytics.py
-
-│   ├── job\_matcher.py
-
-│   ├── learning\_roadmap.py
-
-│   ├── ollama\_client.py
-
-│   ├── question\_generator.py
-
-│   ├── report\_generator.py
-
+│   ├── interview_analytics.py
+│   ├── job_matcher.py
+│   ├── learning_roadmap.py
+│   ├── ollama_client.py
+│   ├── question_generator.py
+│   ├── report_generator.py
 │   └── ...
-
 │
-
 ├── ScreenShots/
-
-├── cv\_readerApp.py
-
+├── cv_readerApp.py
 ├── requirements.txt
-
 └── README.md
-
 ```
 
+---
 
+## ⚙️ Installation
 
-\---
-
-
-
-\## Installation
-
-
-
-\### Clone Repository
-
-
+### Clone Repository
 
 ```bash
-
-git clone https://github.com/YOUR\_USERNAME/AI-Interview-Coach.git
-
-
+git clone https://github.com/Beshoy-Nagy/AI-Interview-Coach.git
 
 cd AI-Interview-Coach
-
 ```
 
-
-
-\### Install Dependencies
-
-
+### Install Dependencies
 
 ```bash
-
 pip install -r requirements.txt
-
 ```
 
+### Install Ollama
 
-
-\### Install Ollama
-
-
-
-Download and install Ollama:
-
-
+Download Ollama:
 
 https://ollama.com
 
-
-
 Pull the required model:
 
-
-
 ```bash
-
 ollama pull qwen3:4b
-
 ```
 
-
-
-\### Run Application
-
-
+### Run the Application
 
 ```bash
-
-streamlit run cv\_readerApp.py
-
+streamlit run cv_readerApp.py
 ```
 
+---
 
+## 🔮 Future Improvements
 
-\---
+* RAG-Based Resume Analysis
+* Vector Database Integration
+* Multi-LLM Support
+* Interview Video Analysis
+* Online Deployment
+* Authentication System
 
+---
 
+## 📸 Screenshots
 
-\## Future Improvements
+### Home Page
+![Home](ScreenShots/Home.jpeg)
 
+### ATS Score Analysis
+![ATS Score](ScreenShots/ATS%20Score.jpeg)
 
+### Interview Session
+![Interview Session](ScreenShots/Live%20session%20interview%20page.jpeg)
 
-\* RAG-based Resume Analysis
+### Interview Analytics Dashboard
+![Dashboard](ScreenShots/Dashboard.jpeg)
 
-\* Vector Database Integration
+### AI Interview Insights
+![Insights](ScreenShots/AI%20Interview%20Insights.jpeg)
 
-\* Multi-LLM Support
+## 👨‍💻 Author
 
-\* Interview Video Analysis
-
-\* Online Deployment
-
-\* Authentication System
-
-
-
-\---
-
-
-
-\## Author
-
-
-
-Beshoy Nagy
-
-
+**Beshoy Nagy**
 
 AI Engineer
 
-
-
-Benha University – Faculty of Computers and Artificial Intelligence
-
-
+Faculty of Computers and Artificial Intelligence, Benha University
 

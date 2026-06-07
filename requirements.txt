@@ -1,0 +1,10 @@
+streamlit
+pdfplumber
+pandas
+matplotlib
+reportlab
+ollama
+streamlit-mic-recorder
+openai-whisper
+torch
+numpy
